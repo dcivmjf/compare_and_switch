@@ -10,7 +10,7 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 inputs: dataA (4-bits), dataB (4-bits)
-output: bits 0,3: Max(A,B)
+outputs: bits 0,3: Max(A,B)
         bits 5,8: Min(A,B)
 
 ## How to test
