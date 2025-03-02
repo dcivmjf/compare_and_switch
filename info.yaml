@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
-project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+project: compare and switch module
+  wokwi_id:     423009271773889537       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "compare and switch module"      # Project title
+  author:       "Victor Manuel Jimenez Fernandez"      # Your name
+  discord:      "victorman"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "This is a compare and switch module created with aim of be used in a sorting network "      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,24 +15,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "A0"
+  ui[1]: "A1"
+  ui[2]: "A2"
+  ui[3]: "A3"
+  ui[4]: "B0"
+  ui[5]: "B1"
+  ui[6]: "B2"
+  ui[7]: "B3"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "maxAB0"
+  uo[1]: "maxAB1"
+  uo[2]: "maxAB2"
+  uo[3]: "maxAB3"
+  uo[4]: "minAB0"
+  uo[5]: "minAB1"
+  uo[6]: "minAB2"
+  uo[7]: "minAB3"
 
   # Bidirectional pins
   uio[0]: ""
